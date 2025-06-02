@@ -34,8 +34,6 @@ This project is a starting point for a Flutter application.
   ```bash
     cd coffee_shop
 3.Get dependencies:
-  ```bash
-     flutter pub get
+flutter pub get
 4.Run the app:
-   ```bash
-    flutter run
+ flutter run
