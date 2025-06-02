@@ -30,9 +30,9 @@ This project is a starting point for a Flutter application.
 1. Clone the repository:
    ```bash
    git clone https://github.com/malakmahersoliman/coffee_shop.git
-2.	Navigate into the project folder:
-  ```bash
-  cd coffee_shop
+2. Navigate into the project folder:
+```bash
+cd coffee_shop
 3. Get dependencies:
   ```bash
   flutter pub get
