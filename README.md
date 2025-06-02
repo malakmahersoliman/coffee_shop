@@ -33,12 +33,12 @@ This project is a starting point for a Flutter application.
 
 2. Navigate into the project folder:
    ```bash
-    cd coffee_shop
+   cd coffee_shop
 
 3. Get dependencies:
-     ```bash
-     flutter pub get
+   ```bash
+   flutter pub get
 
 4. Run the app:
     ```bash
-     flutter run
+    flutter run
