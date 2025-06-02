@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885533592632",
+    "project_id": "coffeshop-585e0",
+    "storage_bucket": "coffeshop-585e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885533592632:android:1df1f2a877fc9aabb1eacd",
+        "android_client_info": {
+          "package_name": "com.malak.coffeetute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNJzp2-afz-b10elAowge50tYOm98P9KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
