@@ -1,4 +1,4 @@
-package com.example.coffeetute
+package com.malak.coffeetute
 
 import io.flutter.embedding.android.FlutterActivity
 

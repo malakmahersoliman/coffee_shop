@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
-  void NavigationBar(int index) {
+  void onNavigationBarTap(int index) {
     if (index == 2) { // Assuming index 2 is for logout
       _logout();
     } else {
@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
 
   void _logout() async {
     await AuthService().signOut(); // Sign out the user
+    if (!mounted) return;
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (context) => const AuthPage()), // Navigate to Auth page
@@ -44,7 +45,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: backgroundColor,
       bottomNavigationBar: MyBottomNavBar(
-        onTabChange: (index) => NavigationBar(index),
+        onTabChange: (index) => onNavigationBarTap(index),
       ),
       body: _pages[_selectedIndex],
     );

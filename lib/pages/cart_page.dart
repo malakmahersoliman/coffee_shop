@@ -88,7 +88,7 @@ class CartPage extends StatelessWidget {
                           backgroundColor: WidgetStateProperty.resolveWith<Color>(
                             (states) {
                               if (states.contains(WidgetState.pressed)) {
-                                return Colors.brown.withOpacity(0.8); // Darker shade when pressed
+                                return Colors.brown.withAlpha((0.8 * 255).round()); // Darker shade when pressed
                               }
                               return Colors.brown;
                             },
