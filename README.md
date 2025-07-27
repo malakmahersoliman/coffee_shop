@@ -13,6 +13,11 @@ The app includes secure user login and registration using **Firebase Authenticat
 - **Dart**  
 - **Firebase Authentication**
 
+## ▶️ Demo Video
+
+Watch the demo on YouTube Shorts:  
+👉 [https://youtube.com/shorts/th72EZcCRW4?feature=shared](https://youtube.com/shorts/th72EZcCRW4?feature=shared)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
