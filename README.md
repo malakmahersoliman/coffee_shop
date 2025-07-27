@@ -47,3 +47,12 @@ This project is a starting point for a Flutter application.
 4. Run the app:
     ```bash
     flutter run
+
+## 💡 Inspiration
+
+This project was inspired by:
+
+- 🔗 [Coffee Shop App UI](https://youtu.be/RPvhoghXn54) – For design and screen layout  
+- 🔗 [Flutter Firebase Login](https://youtu.be/prp8-j3W_V0) – For authentication flow
+
+---
